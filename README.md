@@ -2,21 +2,6 @@
 
 GenMuzic is an innovative music generation application built using Meta's AudioCraft library (MusicGen). It empowers users to generate music compositions from natural language descriptions.
 
-![GenMuzic Logo](https://example.com/genmuzic-logo.png)
-
-## Table of Contents
-- [GenMuzic - Text2Music Generation](#genmuzic---text2music-generation)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Features](#features)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Running the Application](#running-the-application)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
-
 ## Introduction
 
 GenMuzic is a cutting-edge application that demonstrates the power of AI in music composition. It leverages Meta's state-of-the-art AudioCraft library to turn your creative ideas into musical realities. Whether you're a musician looking for inspiration or just curious about the intersection of AI and art, GenMuzic is here to help you explore the possibilities.
@@ -39,16 +24,16 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the GenMuzic repository to your local machine:
 
-   ```bash
-   git clone https://github.com/your-username/genmuzic.git
-   cd genmuzic
-   ```
+```bash
+git clone https://github.com/Kunal-Kumar-Sahoo/genmuzic.git
+cd genmuzic
+```
 
 2. Build the Docker image:
 
-   ```bash
-   docker build -t my-genmuzic-app .
-   ```
+```bash
+docker build -t my-genmuzic-app .
+```
 
 ### Running the Application
 
@@ -68,16 +53,6 @@ Access GenMuzic in your web browser at [http://localhost:8501](http://localhost:
 4. Adjust the desired music duration using the slider.
 5. Click the "Generate Music" button.
 6. Listen to the generated music, and download it using the provided links.
-
-## Contributing
-
-We welcome contributions to enhance GenMuzic. To contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your fork.
-5. Open a pull request to the main repository.
 
 ## License
 
