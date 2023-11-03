@@ -2,7 +2,6 @@ import os, datetime
 import torchaudio
 from audiocraft.models import MusicGen
 
-
 class MusicGenerator:
     def __init__(self):
         self.model = None
